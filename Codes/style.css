@@ -64,6 +64,26 @@ html{
     cursor: pointer;
     border: 2px solid #000;
 }
+.logoClass:hover .logo{
+    animation: shake 1.8s ease-in-out infinite;
+}
+@keyframes shake {
+    0%{
+        transform: rotate(45deg);
+    }
+    25%{
+        transform: rotate(-45deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    75%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(45deg);
+    }
+}
 .logoTxt{
     margin-left: 5px;
     color: #000;
@@ -87,14 +107,15 @@ html{
 }
 .serviceImgs{
     width: 362px;
-    height: 300px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 25px #a400ac;
 }
 .serviceImgs:hover{
     opacity: 0.8;
     transition: opacity 0.8s ease-in-out;
     cursor: pointer;
-    width: 400px;
-    height: 350px;
+    transform: scale(1.2);
     transition: 0.8s;
 }
 .planLogo{
