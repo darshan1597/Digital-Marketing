@@ -3147,18 +3147,18 @@ hr {
 }
 
 /* line 40, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
-.header-area .menu-wrapper {
+/* .header-area .menu-wrapper {
   display: flex;
   align-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-}
+} */
 
 /* line 46, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
-.header-area .menu-wrapper.menu-wrapper2 {
+/* .header-area .menu-wrapper.menu-wrapper2 {
   justify-content: center;
-}
+} */
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 50, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */

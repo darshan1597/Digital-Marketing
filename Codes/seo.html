@@ -5,20 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS here -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../assets/css/slicknav.css">
-    <link rel="stylesheet" href="../assets/css/flaticon.css">
-    <link rel="stylesheet" href="../assets/css/gijgo.css">
-    <link rel="stylesheet" href="../assets/css/animate.min.css">
-    <link rel="stylesheet" href="../assets/css/animated-headline.css">
-    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="../assets/css/themify-icons.css">
-    <link rel="stylesheet" href="../assets/css/slick.css">
-    <link rel="stylesheet" href="../assets/css/nice-select.css">
-    <link rel="stylesheet" href="../assets/css/seoStyle.css">
-    <script src="asset/js/font-awesome-5-all.min.js" crossorigin="anonymous"></script>
+    <link href="../asset/css/simple-datatables-style.css" rel="stylesheet" />
+    <link href="../asset/css/styles.css" rel="stylesheet" />
+    <script src="../asset/js/font-awesome-5-all.min.js" crossorigin="anonymous"></script>
+    <script src="../asset/js/font-awesome-5-all.min.js" crossorigin="anonymous"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <!-- favicions -->
     <link rel="apple-touch-icon" href="" sizes="180x180">
     <link rel="icon" href="" sizes="32x32" type="image/png">
@@ -33,7 +27,7 @@
     <link rel="stylesheet" href="/Codes/seo.css">
     <title>RD Marketing</title>
 </head>
-<body class="white-bg">
+<body style="background: #fad2d2;">
     <!-- Pre Loader -->
     <div id="preLoader">
         <div class="ring"></div>
@@ -41,28 +35,69 @@
     </div>
 
     <header>
-        <div class="header-area header-transparent">
-            <div class="main-header header-sticky">
-                <div class="container-fluid">
-                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
-                        <a href="../index.html" class="logoClass">
-                            <img class="logo" src="../Images/Logo.png" alt="">
-                            <span class="logoTxt">Reach Digital</span>
-                        </a>
-                        
-                        <!-- Main-menu -->
-                        <div class="main-menu f-right d-lg-block">
-                            <nav>
-                                <ul id="navigation">
-                                    <li><a href="">Contact number</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+        <div class="header">
+            <div class="aniDown">
+                <a href="../index.html" class="logoClass">
+                    <img class="logo mt-4" src="../Images/Logo.png" alt="">
+                    <span class="logoTxt">Reach Digital</span>
+                </a>
+            </div>
+            <div>
+                <nav>
+                    <a href="" class="contact mr-5">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- <hr class="hori"> -->
+    <main>
+        <div class="mt-5 ml-5 animation flex">
+            <div data-animation="fadeInLeft" data-delay="0.8s" class="descr">
+                <h1>Transform your online visibility, outrank your competition, and capture the market with our powerful SEO solutions – your key to digital success awaits!</h1>
+            </div>
+            <div>
+                <img src="../Images/SEO3.png" alt="">
+            </div>
+        </div>
+
+        <div class="aniFade d-flex align-items-center justify-content-center resopnsive mt-5" style="min-height:500px;">
+            <div class="col-md-6 form">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-center">
+                        <h2>Submit the form and reach us</h2>
+                    </div>
+                    <div class="card-body">
+                        <form method="POST">
+                            <div class="mb-3">
+                                <h5 style="font-weight: bold; margin-top: 10px; margin-left: 10px;"><label class="form-label">Email</label></h5>
+                                <div class="center">
+                                    <input type="text" name="email" id="email" class="form-control"/>
+                                </div>
+                            </div>
+        
+                            <div class="mb-3">
+                                <h5 style="font-weight: bold; margin-left: 10px;"><label class="form-label">Contact Number</label></h5>
+                                <div class="center">
+                                    <input type="password" name="number" id="number" class="form-control" />
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <h5 style="font-weight: bold; margin-left: 10px;"><label class="form-label">Product</label></h5>
+                                <div class="center">
+                                    <input type="text" name="product" value="Search Engine Optimization(SEO)" id="product" class="form-control" readonly/>
+                                </div>
+                            </div>
+
+                            <div class="center">
+                                <input type="submit" name="submitBtn" class="subBtn text-dark" value="Submit" />
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </main>
 
     <script>
         let loader = document.getElementById("preLoader")
